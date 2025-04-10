@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lancheria Don Lorenzo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Lancheria Don Lorenzo</h1>
+        <p>Seu lanche preparado por chef com mais de 20 anos de experiência</p>
+    </header>
+
+    <main>
+        <h2>Monte seu Pedido:</h2>
+
+        <section class="menu">
+            <h3>Almoços</h3>
+            <label><input type="checkbox" value="Ala minuta de Carne - R$25,00"> Ala minuta de Carne — R$ 25,00</label>
+            <label><input type="checkbox" value="Ala minuta de Frango - R$23,00"> Ala minuta de Frango — R$ 23,00</label>
+            <label><input type="checkbox" value="Strogonoff - R$22,00"> Strogonoff — R$ 22,00</label>
+
+            <h3>Pizzas em Cone</h3>
+            <label><input type="checkbox" value="Pizza Cone Calabresa - R$15,00"> Calabresa — R$ 15,00</label>
+            <label><input type="checkbox" value="Pizza Cone Frango c/ Catupiry - R$15,00"> Frango c/ Catupiry — R$ 15,00</label>
+            <label><input type="checkbox" value="Pizza Cone Strogonoff - R$15,00"> Strogonoff — R$ 15,00</label>
+
+            <h3>Bebidas</h3>
+            <label><input type="checkbox" value="Coca-Cola Lata - R$5,00"> Coca-Cola Lata — R$ 5,00</label>
+            <label><input type="checkbox" value="Água - R$3,00"> Água — R$ 3,00</label>
+        </section>
+
+        <button onclick="enviarPedido()">Enviar Pedido via WhatsApp</button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
