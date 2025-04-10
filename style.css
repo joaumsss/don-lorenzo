@@ -1,5 +1,5 @@
 body {
-    background-color: #1b1b1b; /* Cor de fundo uniforme */
+    background-color: #000000;	/
     color: white;
 }
 
@@ -11,7 +11,7 @@ header {
 }
 
 h1 {
-    color: red;
+    color: white;
 }
 
 main {
@@ -29,7 +29,7 @@ main {
 button {
     padding: 10px 20px;
     background-color: DarkRed;
-    color: black;
+    color: white;
     border: none;
     font-size: 18px;
     cursor: pointer;
