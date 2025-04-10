@@ -5,7 +5,7 @@ function enviarPedido() {
         return;
     }
 
-    let mensagem = "Olá, gostaria de fazer o seguinte pedido:%0A";
+    let mensagem = "Olá, abaixo segue o meu pedido:%0A";
     selecionados.forEach(item => {
         mensagem += "- " + item.value + "%0A";
     });
